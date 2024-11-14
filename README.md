@@ -2,7 +2,7 @@
 
 # Web Radio Project
 
-This project demonstrates how to create a simple web radio streaming application using an **ESP32** that connects to a Wi-Fi network and plays MP3 audio streams. It uses the **MAX98357A** I2S audio amplifier module to output audio. The ESP32 is used to stream audio from an internet radio station and send it to the MAX98357A via I2S protocol.
+This project demonstrates how to create a simple web radio streaming application using an **ESP32** that connects to a Wi-Fi network and plays MP3 audio streams. It uses the **MAX98357A** I2S audio amplifier module to output audio. 
 
 ## Features
 
@@ -35,7 +35,7 @@ The **MAX98357A** is a low-power, high-quality I2S audio DAC (Digital to Analog 
 - **I2S Interface**: The MAX98357A communicates with the ESP32 over I2S, which is an industry-standard audio protocol.
 - **Built-in Amplifier**: The MAX98357A includes a built-in class D amplifier, so you can drive speakers directly without needing an external amplifier.
 - **Mono or Stereo Output**: The module is configured for mono output, but you can modify it for stereo output if needed.
-- **Power Supply**: Typically powered by 5V DC (ensure your ESP32 and the MAX98357A module are powered properly).
+- **Power Supply**: Typically powered by 3.3V DC (ensure your ESP32 and the MAX98357A module are powered properly).
 
 ### Wiring:
 - The **MAX98357A** connects to the ESP32 via I2S pins (Bit Clock, Left-Right Clock, and Data Out), along with a 5V power supply.
