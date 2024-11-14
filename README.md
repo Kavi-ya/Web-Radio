@@ -1,10 +1,9 @@
-Here's a `README.md` file for your web radio project using the provided code:
 
 ---
 
 # Web Radio Project
 
-This project demonstrates how to create a simple web radio streaming application using an ESP32 (or compatible board) that connects to a Wi-Fi network and plays MP3 audio streams. The ESP32 is used to stream audio from an internet radio station and output it via I2S audio hardware.
+This project demonstrates how to create a simple web radio streaming application using an ESP32 that connects to a Wi-Fi network and plays MP3 audio streams using MAX98357A module. The ESP32 is used to stream audio from an internet radio station and output it via I2S audio hardware.
 
 ## Features
 
