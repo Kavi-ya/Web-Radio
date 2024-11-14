@@ -131,4 +131,3 @@ This project is licensed under the MIT License.
 
 ---
 
-Let me know if you'd like any other adjustments or additional sections to the README!
